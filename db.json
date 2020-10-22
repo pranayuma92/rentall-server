@@ -5,10 +5,44 @@
       "password": "$2a$10$mrWCLfMRZVvqncnqN6RHyeBQn39xoVwYhXPpAqWgPJ2v7NnPy/FWG",
       "firstname": "Pandu",
       "lastname": "Pranayuma",
-      "id": 1
+      "isAdmin": true,
+      "id": 1,
+      "address": "Jl. Hangtuah",
+      "city": "Pekanbaru",
+      "province": "Riau",
+      "profileImg": "https://i.ibb.co/KhhNDXD/3bfea91c2bb7.jpg"
+    },
+    {
+      "firstname": "Test",
+      "lastname": "Admin",
+      "email": "admin@rentall.com",
+      "password": "$2a$10$mrWCLfMRZVvqncnqN6RHyeBQn39xoVwYhXPpAqWgPJ2v7NnPy/FWG",
+      "address": "Jalan Cipta karya",
+      "city": "Pekanbaru",
+      "id": 2,
+      "province": "Riau",
+      "profileImg": "https://i.ibb.co/6vbhXJX/6e2bbecc9a73.png"
+    },
+    {
+      "email": "user@rentall.com",
+      "password": "$2a$10$ZUIeluEyvgJazRmk7QP3eezwqqYpsWQeWf8wX8VYoLbKZseIQ7Ry6",
+      "firstname": "Test",
+      "lastname": "User",
+      "isAdmin": false,
+      "id": 3,
+      "profileImg": "https://i.ibb.co/TrYwcds/32cf7f514d3a.png"
     }
   ],
-  "user_meta": [],
+  "user_meta": [
+    {
+      "firstname": "Test",
+      "lastname": "Admin",
+      "address": "xxsxsxs",
+      "city": "xzzxzxz",
+      "province": "sxxsxs",
+      "id": 2
+    }
+  ],
   "stuff": [
     {
       "id": 6549,
@@ -17,7 +51,8 @@
       "cat": "elektronik",
       "price": 100000,
       "priceUnit": "hari",
-      "pic": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/digitalcameras/Canon_EOS_90D_Kit/Canon_EOS_90D_Kit_L_1.jpg"
+      "pic": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/digitalcameras/Canon_EOS_90D_Kit/Canon_EOS_90D_Kit_L_1.jpg",
+      "authorId": 1
     },
     {
       "id": 6550,
@@ -26,7 +61,8 @@
       "cat": "rumah-tangga",
       "price": 100000,
       "priceUnit": "hari",
-      "pic": "https://images-na.ssl-images-amazon.com/images/I/51l8T3KNf3L._AC_SY450_.jpg"
+      "pic": "https://images-na.ssl-images-amazon.com/images/I/51l8T3KNf3L._AC_SY450_.jpg",
+      "authorId": 1
     },
     {
       "id": 6551,
@@ -35,7 +71,8 @@
       "cat": "kendaraan",
       "price": 500000,
       "priceUnit": "bulan",
-      "pic": "https://s0.bukalapak.com/img/0994552952/large/lis_bodystriping_yamaha_vega_zr_2009_hitam_.png"
+      "pic": "https://s0.bukalapak.com/img/0994552952/large/lis_bodystriping_yamaha_vega_zr_2009_hitam_.png",
+      "authorId": 1
     },
     {
       "id": 6552,
@@ -44,7 +81,8 @@
       "cat": "kendaraan",
       "price": 300000,
       "priceUnit": "hari",
-      "pic": "https://imgcdn.oto.com/medium/gallery/exterior/38/2041/toyota-avanza-veloz-68312.jpg"
+      "pic": "https://imgcdn.oto.com/medium/gallery/exterior/38/2041/toyota-avanza-veloz-68312.jpg",
+      "authorId": 2
     },
     {
       "id": "6553",
@@ -53,7 +91,8 @@
       "cat": "hobi",
       "price": "150000",
       "priceUnit": "hari",
-      "pic": "https://apollo-singapore.akamaized.net/v1/files/xp0trmcdh1b02-ID/image"
+      "pic": "https://apollo-singapore.akamaized.net/v1/files/xp0trmcdh1b02-ID/image",
+      "authorId": 2
     },
     {
       "id": "yjssz6",
@@ -62,7 +101,8 @@
       "cat": "elektronik",
       "price": "1500000",
       "priceUnit": "hari",
-      "pic": "https://i.ibb.co/4gqcRcM/a3129ae48f5d.jpg"
+      "pic": "https://i.ibb.co/4gqcRcM/a3129ae48f5d.jpg",
+      "authorId": 2
     },
     {
       "id": "ep7bap",
@@ -71,7 +111,8 @@
       "cat": "industri",
       "price": "500000",
       "priceUnit": "hari",
-      "pic": "https://i.ibb.co/6HZnVx6/069f4473827f.jpg"
+      "pic": "https://i.ibb.co/6HZnVx6/069f4473827f.jpg",
+      "authorId": 2
     },
     {
       "id": "vtc05g",
@@ -80,7 +121,8 @@
       "cat": "industri",
       "price": "5000000",
       "priceUnit": "hari",
-      "pic": "https://i.ibb.co/RBLKCDN/40c824a7ae7d.jpg"
+      "pic": "https://i.ibb.co/RBLKCDN/40c824a7ae7d.jpg",
+      "authorId": 1
     }
   ],
   "comments": [],
